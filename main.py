@@ -1,6 +1,6 @@
 import praw
 
-userAgent = ("StarTrekBot 0.1")
+userAgent = ("StarTreker for ftlgame 0.1")
 r = praw.Reddit(user_agent = userAgent)
 subreddit = r.get_subreddit("ftlgame")
 
